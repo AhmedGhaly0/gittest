@@ -353,51 +353,53 @@ $(document).ready(function() {
         //   show section 1
 
         $(".show1").click(function(){
-            $(".hide1").fadeToggle();
+            $(".hide1").fadeIn();
         })
         $(".show2").click(function(){
-            $(".hide2").fadeToggle();
+            $(".hide2").fadeIn();
         })
         $(".show3").click(function(){
-            $(".hide3").fadeToggle();
+            $(".hide3").fadeIn();
         })
         $(".show4").click(function(){
-            $(".hide4 ").fadeToggle();
+            $(".hide4 ").fadeIn();
         })
         $(".show5").click(function(){
-            $(".hide5 ").fadeToggle();
+            $(".hide5 ").fadeIn();
         })
         $(".show6").click(function(){
-            $(".hide6 ").fadeToggle();
+            $(".hide6 ").fadeIn();
         })
         $(".show7").click(function(){
-            $(".hide7 ").fadeToggle();
+            $(".hide7 ").fadeIn();
         })
-
+        $(".show8").click(function(){
+            $(".hide8 ").fadeIn();
+        })
 
 
         //   show section 2
 
         $(".show9").click(function(){
-            $(".hide9").fadeToggle();
+            $(".hide9").fadeIn();
         })
         $(".show10").click(function(){
-            $(".hide10").fadeToggle();
+            $(".hide10").fadeIn();
         })
         $(".show11").click(function(){
-            $(".hide11").fadeToggle();
+            $(".hide11").fadeIn();
         })
         $(".show12").click(function(){
-            $(".hide12 ").fadeToggle();
+            $(".hide12 ").fadeIn();
         })
         $(".show13").click(function(){
-            $(".hide13 ").fadeToggle();
+            $(".hide13 ").fadeIn();
         })
         $(".show14").click(function(){
-            $(".hide14 ").fadeToggle();
+            $(".hide14 ").fadeIn();
         })
         $(".show15").click(function(){
-            $(".hide15 ").fadeToggle();
+            $(".hide15 ").fadeIn();
         })
 
 

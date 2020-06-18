@@ -419,15 +419,15 @@ header .title .contented p{
   outline: none;
   letter-spacing: .5px;
   border: 1px solid #4caf50;
-  background-color: transparent;
+  background-color: #4caf50;
   color: white;
   border-radius: 6px;
   font-weight: bolder;
   transition: .4s
  }
 header .title .contented button:hover{
-  background-color: #4caf50;
-  color: white;
+  
+  color: #4caf50;
   cursor: pointer;
 } 
 header .content .arrow{
@@ -1011,7 +1011,7 @@ a.scrollup {
 } */   
           /* ******  code hide section 1  ****** */
 
-  .hide-vedio .hide1,.hide2,.hide3,.hide4,.hide5,.hide6,.hide7{
+  .hide-vedio .hide1,.hide2,.hide3,.hide4,.hide5,.hide6,.hide7,.hide8{
     display: none;
     position: absolute;
     top: 105px;
@@ -1034,7 +1034,27 @@ a.scrollup {
     
   }
 
-
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #4caf50;
+  background-color: #fff;
+  transition: 2s;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
 
 
 
