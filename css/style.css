@@ -745,7 +745,7 @@ a.scrollup {
   text-align: center;
   text-decoration: none;
   position: fixed;
-  bottom: 70px;
+  bottom: 40px;
   right: 10px;
   z-index: 9999;
   opacity: .5;
