@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(".loading").delay(2300).fadeOut();
+    $(".loading").delay(2000).fadeOut();
     $("steb-but").click(function(){
     })
 
