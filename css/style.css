@@ -565,8 +565,11 @@ hr{
   height: 2px;
 }
 
-
-
+.text-hr{
+  margin: 0 38%;
+  color: #4caf50;
+  font-size: 30px;
+}
 
 /* start our team */
 .our-team{
